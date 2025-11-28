@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Погосян Арман">
+    <title>Стрілецька Зброя | Довідник</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Технічний шрифт Roboto Mono для цифр та креслень -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="military-header">
+        <div class="logo">GUNS<span>.WIKI</span></div>
+        <div class="header-info">База даних стрілецького озброєння</div>
+    </header>
+
+    <div class="container">
+        
+        <!-- Бічна панель -->
+        <aside class="sidebar">
+            <h3>Категорії</h3>
+            <ul>
+                <li><a href="#intro">Класифікація</a></li>
+                <li><a href="#rifles">Штурмові гвинтівки</a></li>
+                <li><a href="#blueprints">Креслення (Схеми)</a></li>
+                <li><a href="#ammo">Боєприпаси</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            
+            <section id="intro">
+                <h1>Стрілецька зброя: Теорія</h1>
+                <p><strong>Стрілецька зброя</strong> — ствольна зброя калібром менше 20 мм, призначена для ураження цілей кулями.</p>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4>Автоматична</h4>
+                        <p>Здатна вести вогонь чергами (наприклад, АК-74, M4).</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Напівавтоматична</h4>
+                        <p>Один постріл — одне натискання гачка (SVD, Glock 17).</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="rifles">
+                <h2>Легендарні платформи</h2>
+                <p>Порівняння двох найпопулярніших платформ у світі.</p>
+
+                <!-- Блок про АК -->
+                <div class="weapon-block">
+                    <h3>Платформа АК (Калашніков)</h3>
+                    <div class="specs-container">
+                        <!-- ВСТАВЛЕНО ВАШЕ ФОТО -->
+                        <img src="ak-74.jpg" alt="AK-74" class="weapon-img">
+                        <table class="tech-table">
+                            <tr>
+                                <th>Характеристика</th>
+                                <th>Значення</th>
+                            </tr>
+                            <tr>
+                                <td>Калібр</td>
+                                <td>5.45x39 мм</td>
+                            </tr>
+                            <tr>
+                                <td>Принцип роботи</td>
+                                <td>Відведення газів</td>
+                            </tr>
+                            <tr>
+                                <td>Скорострільність</td>
+                                <td>600 постр/хв</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Блок про AR -->
+                <div class="weapon-block">
+                    <h3>Платформа AR-15 (M16/M4)</h3>
+                    <div class="specs-container">
+                        <!-- ВСТАВЛЕНО ВАШЕ ФОТО -->
+                        <img src="m4 carabine.jpg" alt="M4 Carbine" class="weapon-img">
+                        <table class="tech-table">
+                            <tr>
+                                <th>Характеристика</th>
+                                <th>Значення</th>
+                            </tr>
+                            <tr>
+                                <td>Калібр</td>
+                                <td>5.56x45 мм (NATO)</td>
+                            </tr>
+                            <tr>
+                                <td>Принцип роботи</td>
+                                <td>Direct Impingement</td>
+                            </tr>
+                            <tr>
+                                <td>Скорострільність</td>
+                                <td>700-950 постр/хв</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="blueprints">
+                <h2>Креслення та схеми</h2>
+                <p>Внутрішня будова механізмів.</p>
+
+                <!-- Схема АК -->
+                <div class="blueprint-box">
+                    <h4>Схема роботи автоматики АК</h4>
+                    <!-- ВСТАВЛЕНО ВАШЕ ФОТО -->
+                    <img src="ak-74 shema.jpg" alt="Схема АК" class="blueprint-img">
+                    <p class="blueprint-desc">Рис 1. Розріз ствольної коробки та газовідвідного механізму.</p>
+                </div>
+
+                <!-- Схема Затвора -->
+                <div class="blueprint-box">
+                    <h4>Схема затвора (Bolt Carrier Group)</h4>
+                    <!-- ВСТАВЛЕНО ВАШЕ ФОТО -->
+                    <img src="zatvor.jpg" alt="Схема затвора" class="blueprint-img">
+                    <p class="blueprint-desc">Рис 2. Робота ударника та затворної групи AR-систем.</p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>Розробник: <strong>Погосян Арман</strong> | Група ВІТ-3</p>
+        <p class="disclaimer">Увага: Сайт створено виключно з освітньою метою.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
